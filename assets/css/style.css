@@ -210,13 +210,13 @@
   height: 52px;
   transform: rotate(-90deg);
   position: absolute;
-  top: 250px;
-  left: -20px;
+  top: 260px;
+  left: -1%;
   margin-left: -50px;
 }
 .tex p {
   line-height: 39.84px;
-  font-size: 34px;
+  font-size: 40px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
@@ -520,13 +520,15 @@
   width: 643px;
   height: 32px;
   background-color: rgba(30, 40, 50, 0.05);
-  border-top: hidden;
-  border-left: hidden;
-  border-right: hidden;
+  border-top: none;
+  border-left: none;
+  border-right: none;
   font-family: "Roboto";
   font-weight: 400;
   line-height: 21.79px;
   font-size: 16px;
+  padding-bottom: 8px;
+  padding-left: 10px;
 }
 
 .bottom-ins-txt button {
@@ -606,9 +608,10 @@
 }
 .box {
   display: flex;
-  align-items: center;
+
   justify-content: space-between;
-  margin-top:30px;
+  
+  align-items: center;
 }
 .left-bootom-footer {
   width: 137px;
@@ -618,10 +621,12 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 21, 79px;
+  margin-top: 13px;
 }
 .center-bootom-footer {
   width: 283px;
   height: 24px;
+  margin-top: 13px;
 }
 .box button {
   width: 150px;
@@ -632,4 +637,8 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 21, 79px;
+  margin-top: 13px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
 }

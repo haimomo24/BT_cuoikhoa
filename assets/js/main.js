@@ -4,7 +4,7 @@ $(document).ready(function(){
         loop: true, //Vong lap
         margin: 30, //Khoang cach giua item
         nav: true, //Thanh dieu huong (Mui ten)
-        dots: true, //Dieu huong (Dau cham tron)
+        dots: false, //Dieu huong (Dau cham tron)
         autoplay: true, //tu dong chuyen slider
         autoplayTimeout: 4000, //Thoi chuyen slider (ms)
       responsive:{ //quy dinh so luong san pham tren cac man hinh 
